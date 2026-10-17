@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignorar datos pesados y archivos temporales
+data/raw/
+*.csv
+*.parquet
+*.zip
+.venv/
+__pycache__/
+.ipynb_checkpoints/
