@@ -1,0 +1,12 @@
+pipeline:
+  app_name: "FinancialFraudAnalytics_Production"
+  total_records: 1000000
+
+risk_rules:
+  high_risk_threshold: 0.70
+  medium_risk_threshold: 0.35
+  high_amount_limit: 5000.0
+
+export:
+  sample_size: 50000
+  output_csv: "data/processed/fraud_detection_dashboard_data.csv"
